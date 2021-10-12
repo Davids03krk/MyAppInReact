@@ -1,0 +1,18 @@
+.users-page {
+    display: flex;
+    background-color: red;
+    padding: 5px;
+    width: 100%;
+
+    &__users {
+        width: 50%;
+        background-color: green;
+        padding: 5px;
+    }
+
+    &__user-details {
+        width: 50%;
+        background-color: indigo;
+        padding: 5px;
+    }
+}

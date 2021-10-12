@@ -1,0 +1,18 @@
+.user-posts-page {
+    display: flex;
+    background-color: red;
+    padding: 5px;
+    width: 100%;
+
+    &__posts {
+        width: 50%;
+        background-color: green;
+        padding: 5px;
+    }
+
+    &__comments {
+        width: 50%;
+        background-color: indigo;
+        padding: 5px;
+    }
+}
